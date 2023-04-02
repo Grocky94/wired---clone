@@ -90,6 +90,7 @@
     padding-left: 20px;
 }
 
+
 .first-comp {
     height: auto;
     width: 90%;
@@ -102,7 +103,7 @@
     height: auto;
     width: 70%;
     border: 1px solid black;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .lefthead {
@@ -120,61 +121,71 @@ justify-content: space-between;
     color: white;
     background-color: black;
 }
-.first-comp-inner-align{
-    height:auto;
-    width:98%;
-    border:1px solid black;
+
+.first-comp-inner-align {
+    height: auto;
+    width: 98%;
+    border: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
+
 .first-comp-inner-left {
     height: 650px;
     width: 35%;
     border: 1px solid black;
 }
 
-.first-comp-leftsid-pic{
+.first-comp-leftsid-pic {
     width: 100%;
     object-fit: cover;
 }
 
-.left-unblod-text{
-    height:20px;
+.left-unblod-text {
+    height: 20px;
     width: 100%;
     margin-top: 3%;
     font-size: smaller;
     /* border: 1px solid black */
 }
-.left-blod-text{
+
+.left-blod-text {
     margin-top: 8px;
 }
-.hori{
+
+.hori {
     margin-top: 5px;
 }
-.first-comp-inner-right{
+
+.first-comp-inner-right {
     height: 650px;
     width: 62%;
     border: 1px solid black;
 }
-.left-bloder-text{
+
+.left-bloder-text {
     margin-top: 8px;
     font-weight: bolder;
     font-size: 30px;
 }
-.left-unblod-smaller-text{
+
+.left-unblod-smaller-text {
     margin-top: 4%;
 }
-.firstRight{
-    height:auto;
+
+.firstRight {
+    height: auto;
     width: 35%;
-    border:1px solid black;
+    border: 1px solid black;
 }
-.rightHead{
-    height:40px;
-    width:100%;
-    border:1px solid black;
+
+.rightHead {
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
 }
-.headlineRight{
+
+.headlineRight {
     height: 30px;
     width: 150px;
     text-align: center;
@@ -182,93 +193,398 @@ justify-content: space-between;
     color: white;
     background-color: black;
 }
-.first-comp-right-inner-align{
-    height:auto;
-    width:90%;
-    margin-left: 5%;
-    border:1px solid black;
-}
-.rightSide-small-comp{
-    height:110px;
-    width:100%;
-    border:1px solid black;
-    display: flex;
-}
-.rightSide-inner-small-comp{
-    height:100px;
-    width:70%;
-    border:1px solid black;
-    margin-top: 5px;
-    margin-left: 10px;
-}
-.rightSide-inner-small-comp-pic{
-    height:100px;
-    width:25%;
-    border:1px solid black;
-    margin-top: 5px;
-    padding-top: 5px;
-    padding-left: 5px;
-}
-.bloder-text{
-    margin-top: 8px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.left-unblod-text{
-height:20px;
-width: 100%;
-margin-top: 3%;
-font-size: smaller;
-}
-.second-comp{
+
+.first-comp-right-inner-align {
     height: auto;
     width: 90%;
     margin-left: 5%;
     border: 1px solid black;
 }
-.lefthead-complete{
-height: 40px;
-width: 100%;
-/* border-top:1px solid black; */
-border: 1px solid black;
-display: flex;
+
+.rightSide-small-comp {
+    height: 110px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
 }
-.headlineLeft-without-bg{
+
+.rightSide-inner-small-comp {
+    height: 100px;
+    width: 70%;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.rightSide-inner-small-comp-pic {
+    height: 100px;
+    width: 25%;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.bloder-text {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.left-unblod-text {
+    height: 20px;
+    width: 100%;
+    margin-top: 3%;
+    font-size: smaller;
+}
+
+.second-comp {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+.lefthead-complete {
+    height: 40px;
+    width: 100%;
+    /* border-top:1px solid black; */
+    border: 1px solid black;
+    display: flex;
+}
+
+.headlineLeft-without-bg {
     height: 30px;
     width: 350px;
     text-align: center;
     padding-top: 5px;
     margin-left: -15px;
 }
-.flexway-comp{
-    height:380px;
-    width:100%;
-    border:1px solid black;
+
+.flexway-comp {
+    height: 380px;
+    width: 100%;
+    border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
 }
-.flexway-inner-comp{
-    height:350px;
-    width:310px;
+
+.flexway-inner-comp {
+    height: 350px;
+    width: 310px;
     margin-top: 10px;
-    border:1px solid black;
+    border: 1px solid black;
 }
-.flexway-inner-comp-pic{
-    width:100%;
-    object-fit:contain;
+
+.flexway-inner-comp-pic {
+    width: 100%;
+    object-fit: contain;
 }
-.flexway-bold-text{
-margin-top: 8px;
+
+.flexway-bold-text {
+    margin-top: 8px;
     font-weight: bold;
     font-size: 15px;
 }
-.flexway-smaller-text{
+
+.flexway-smaller-text {
     margin-top: 8px;
     font-size: small;
     font-style: italic;
 }
-.flexway-unblod-text{
+
+.flexway-unblod-text {
     margin-top: 5%;
 
     font-size: smaller;
+}
+
+@media screen and (max-width:750px) {
+    #navbar {
+        height: 30px;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .bar-icon {
+        height: 30px;
+        width: auto;
+        padding-top: 2px;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .bar-icon>i {
+        font-size: small;
+    }
+
+    .brandName {
+        height: 30px;
+        width: 10%;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .brandName>img {
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .menu {
+        height: 30px;
+        width: auto;
+        border: 1px solid black;
+        overflow: hidden;
+    }
+
+    .menulist {
+        display: flex;
+        padding-top: 3px;
+        list-style: none;
+    }
+
+    .menuName {
+
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: small;
+        font-family: helvetica, sans-serif;
+        
+    }
+
+    .sig-sub {
+        height: 30px;
+        width: 17%;
+        border: 1px solid black;
+    }
+
+    .signdiv {
+    
+        display: none;
+
+    }
+
+    .sig {
+    
+        display: none;
+    }
+
+    .subcr {
+        height: 20px;
+        width: auto;
+        border: 1px solid black;
+        border-radius: 3px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: -5px;
+        background-color: #2f6697;
+        color: white;
+    }
+
+    .fa-magnifying-glass {
+        display: none;
+    }
+
+    /* first compartment styling*/
+
+    .first-comp {
+        height: auto;
+        width: 80%;
+        margin-left: 5%;
+        border: 1px solid black;
+        
+        
+    }
+
+    .firstLeft {
+        height: auto;
+        width: 100%;
+        border: 1px solid black;
+        
+    }
+
+    .lefthead {
+        height: 40px;
+        width: 90%;
+        /* border-top:1px solid black; */
+        border: 1px solid black;
+        display: none;
+    }
+
+    .headlineLeft {
+        height: 30px;
+        width: 150px;
+        text-align: center;
+        padding-top: 5px;
+        color: white;
+        background-color: black;
+    }
+
+    .first-comp-inner-align {
+        height: auto;
+        width: 100%;
+        display: grid;
+        
+        border: 1px solid black;
+    }
+
+    .first-comp-inner-left {
+        height: auto;
+        width: 100%;
+        border: 1px solid black;
+        
+    }
+
+    .first-comp-leftsid-pic {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .left-unblod-text {
+        height: 20px;
+        width: 100%;
+        margin-top: 3%;
+        font-size: smaller;
+        /* border: 1px solid black */
+    }
+
+    .left-blod-text {
+        margin-top: 8px;
+    }
+
+    .hori {
+        margin-top: 5px;
+    }
+
+    .first-comp-inner-right {
+        height: auto;
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .left-bloder-text {
+        margin-top: 8px;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .left-unblod-smaller-text {
+        margin-top: 4%;
+    }
+
+    .firstRight {
+
+        display: none;
+    }
+
+    .rightHead {
+    
+        display: none;
+    }
+
+    .headlineRight {
+      display: none;
+    }
+
+    .first-comp-right-inner-align {
+        display: none;
+    }
+
+    .rightSide-small-comp {
+        height: 110px;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .rightSide-inner-small-comp {
+        height: 100px;
+        width: 70%;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .rightSide-inner-small-comp-pic {
+        height: 100px;
+        width: 25%;
+        border: 1px solid black;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
+    .bloder-text {
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .left-unblod-text {
+        height: 20px;
+        width: 100%;
+        margin-top: 3%;
+        font-size: smaller;
+    }
+    /* second compartment styling */
+    .second-comp {
+        height: auto;
+        width: 80%;
+        margin-left: 5%;
+        border: 1px solid black;
+    }
+    
+    .lefthead-complete {
+        display: none;
+    }
+    
+    .headlineLeft-without-bg {
+        height: 30px;
+        width: 350px;
+        text-align: center;
+        padding-top: 5px;
+        margin-left: -15px;
+    }
+    
+    .flexway-comp {
+        height: auto;
+        width: 100%;
+        border: 1px solid black;
+        display: grid;
+        justify-content: space-evenly;
+    }
+    
+    .flexway-inner-comp {
+        height: 400px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    
+    .flexway-inner-comp-pic {
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .flexway-bold-text {
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .flexway-smaller-text {
+        margin-top: 8px;
+        font-size: small;
+        font-style: italic;
+    }
+    
+    .flexway-unblod-text {
+        margin-top: 5%;
+    
+        font-size: smaller;
+    }
 }
