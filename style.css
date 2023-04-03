@@ -299,6 +299,141 @@
     font-size: smaller;
 }
 
+.third-comp {
+    height: auto;
+    width: 90%;
+    border: 1px solid black;
+    margin-left: 5%;
+}
+
+.third-headline-div {
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.third-inner-headline-box {
+    height: 30px;
+    width: 280px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+}
+
+.third-comp-inner-align {
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-comp-left-inner-div {
+    height: 460px;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.third-comp-right-inner-div {
+    height: 460px;
+    width: 38%;
+    border: 1px solid black;
+}
+
+.third-comp-left-inner-div-pic {
+    width: 100%;
+    object-fit: fill;
+}
+
+.text-sty-normal {
+    font-family: WiredMono, helvetica, sans-serif;
+}
+
+.text-sty-larger {
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: bolder;
+
+}
+
+.text-withlong-gap {
+    font-size: 20px;
+    margin-top: 320px;
+}
+
+.small-flex-row {
+    height: 140px;
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.hidden-small-flex-row {
+    height: 140px;
+    width: 100.5%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.inner-small-flex-row {
+    height: 120px;
+    width: 32%;
+    margin-top: 10px;
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.div-for-text {
+    height: 120px;
+    width: 65%;
+    border: 1px solid black;
+}
+
+.inner-small-flex-row-pic {
+    height: 120px;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.small-flex-row-normal-text {
+    font-size: small;
+}
+
+.small-flex-row-bold-text {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.small-picture {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.fourth-comp {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.fourth-first-inner-comp-align {
+    height: 900px;
+    width: 70%;
+    border: 1px solid black;
+
+}
+iframe{
+width: 30%;
+height: 900px;
+}
+
 @media screen and (max-width:750px) {
     #navbar {
         height: 30px;
@@ -352,7 +487,7 @@
         font-weight: bold;
         font-size: small;
         font-family: helvetica, sans-serif;
-        
+
     }
 
     .sig-sub {
@@ -362,13 +497,13 @@
     }
 
     .signdiv {
-    
+
         display: none;
 
     }
 
     .sig {
-    
+
         display: none;
     }
 
@@ -395,15 +530,15 @@
         width: 80%;
         margin-left: 5%;
         border: 1px solid black;
-        
-        
+
+
     }
 
     .firstLeft {
         height: auto;
         width: 100%;
         border: 1px solid black;
-        
+
     }
 
     .lefthead {
@@ -427,7 +562,7 @@
         height: auto;
         width: 100%;
         display: grid;
-        
+
         border: 1px solid black;
     }
 
@@ -435,7 +570,7 @@
         height: auto;
         width: 100%;
         border: 1px solid black;
-        
+
     }
 
     .first-comp-leftsid-pic {
@@ -481,12 +616,12 @@
     }
 
     .rightHead {
-    
+
         display: none;
     }
 
     .headlineRight {
-      display: none;
+        display: none;
     }
 
     .first-comp-right-inner-align {
@@ -529,6 +664,7 @@
         margin-top: 3%;
         font-size: smaller;
     }
+
     /* second compartment styling */
     .second-comp {
         height: auto;
@@ -536,11 +672,11 @@
         margin-left: 5%;
         border: 1px solid black;
     }
-    
+
     .lefthead-complete {
         display: none;
     }
-    
+
     .headlineLeft-without-bg {
         height: 30px;
         width: 350px;
@@ -548,7 +684,7 @@
         padding-top: 5px;
         margin-left: -15px;
     }
-    
+
     .flexway-comp {
         height: auto;
         width: 100%;
@@ -556,7 +692,7 @@
         display: grid;
         justify-content: space-evenly;
     }
-    
+
     .flexway-inner-comp {
         height: 400px;
         width: 80%;
@@ -564,27 +700,27 @@
         margin-top: 10px;
         border: 1px solid black;
     }
-    
+
     .flexway-inner-comp-pic {
         width: 100%;
         object-fit: contain;
     }
-    
+
     .flexway-bold-text {
         margin-top: 8px;
         font-weight: bold;
         font-size: 15px;
     }
-    
+
     .flexway-smaller-text {
         margin-top: 8px;
         font-size: small;
         font-style: italic;
     }
-    
+
     .flexway-unblod-text {
         margin-top: 5%;
-    
+
         font-size: smaller;
     }
 }
